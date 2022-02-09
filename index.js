@@ -5,7 +5,7 @@ app.set("view engine", "ejs")
 
 app.get( '/', (req,res,netx) => {
     res.render("index")
-})
+}) 
 
 app.get( '/test', (req,res,netx) => {
     
